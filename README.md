@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Weather App</h1>
 
-<p id="description">Introducing our innovative WeatherExplorer app, your go-to companion for real-time weather updates tailored to your favorite cities! Whether you're planning a weekend getaway, scheduling outdoor activities, or just staying informed about the conditions around the world, WeatherExplorer has you covered..</p>
+<p id="description">Introducing our innovative WeatherExplorer app, your go-to companion for real-time weather updates tailored to your favorite cities! Whether you're planning a weekend getaway, scheduling outdoor activities, or just staying informed about the conditions around the world.</p>
 
 
 <h2>🛠️ Installation Steps:</h2>
