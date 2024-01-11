@@ -40,3 +40,4 @@ Technologies used in the project:
 
 <span><img src="https://github.com/akashpawar43/weather-app/blob/master/src/assets/website1.png" alt="project-screenshot" ></span>
 <span><img src="https://github.com/akashpawar43/weather-app/blob/master/src/assets/website2.png" alt="project-screenshot" ></span>
+<span><img src="https://github.com/akashpawar43/weather-app/blob/master/src/assets/website3.png" alt="project-screenshot" ></span>
