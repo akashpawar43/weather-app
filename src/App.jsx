@@ -1,4 +1,3 @@
-// App.js
 import React, { useState } from 'react';
 import SearchBar from './components/SearchBar';
 import WeatherCard from './components/WeatherCard';
@@ -8,7 +7,8 @@ const App = () => {
   const [weatherData, setWeatherData] = useState({});
   const [error, setError] = useState('');
 
-  const API_KEY = '14f9d93fa622f1edaa23787ad18e8a64';
+  // const API_KEY = '14f9d93fa622f1edaa23787ad18e8a64';
+  const API_KEY = import.meta.env.VITE_API_KEY;
 
   const handleSearch = async (city) => {
     try {
@@ -27,16 +27,18 @@ const App = () => {
 
       setWeatherData(weatherInfo);
       setError('');
+      console.log(weather)
     } catch (error) {
       setWeatherData({});
-      setError('City not found. Please try again.');
+      setError('Location not found. Please try again.');
     }
   };
+
 
   return (
     <div className="app max-w-5xl m-auto">
       <SearchBar onSearch={handleSearch} />
-      {error && <p className="error-message">{error}</p>}
+      {error && <p className="error-message p-4 bg-red-500 rounded-lg text-white mx-4">{error}</p>}
       <main className=' w-full'>
         {Object.keys(weatherData).length > 0 && <WeatherCard weatherData={weatherData} />}
       </main>
