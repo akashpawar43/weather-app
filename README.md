@@ -11,13 +11,19 @@
 npm install
 ```
 
-<p>2. In the project directory you can run:</p>
+<p>2. Create .env file in root directory and insert below env variables:</p>
+
+```
+VITE_API_KEY = "Enter your openweathermap api key"
+```
+
+<p>3. In the project directory you can run:</p>
 
 ```
 npm run dev
 ```
 
-<p>3. For building Production build</p>
+<p>4. For building Production build</p>
 
 ```
 npm run build
